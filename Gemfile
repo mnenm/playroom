@@ -39,3 +39,12 @@ group :development do
   gem 'capistrano_colors'
   gem 'rvm-capistrano'
 end
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl'
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'database_cleaner'
+  gem 'simplecov'
+  gem 'simplecov-rcov'
+end

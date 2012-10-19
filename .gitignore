@@ -18,4 +18,5 @@ config/unicorn.rb
 config/deploy.rb
 config/deploy
 config/deploy.rb
+config/coverage
 Capfile
